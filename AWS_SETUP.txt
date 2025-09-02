@@ -1,0 +1,17 @@
+
+AWS Integration Guide:
+
+1. IAM:
+   - Create roles for EC2 and Jenkins with access to S3, CloudWatch, and CloudTrail.
+
+2. EC2:
+   - Launch an EC2 instance and install Jenkins and Docker.
+
+3. S3:
+   - Create a bucket to store build logs or artifacts.
+
+4. CloudWatch:
+   - Set up monitoring for EC2 and application logs.
+
+5. CloudTrail:
+   - Enable CloudTrail to track API calls and changes.
